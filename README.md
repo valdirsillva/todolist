@@ -59,4 +59,11 @@ Você deve fornecer os seguintes dados em formato JSON no corpo da solicitação
 
 ```
 
+## Listar tarefas cadastradas por usuários
+
+Adicione a autenticação Basic Auth. 
+Em seguida, preencha o username e senha.
+
+Envie solicitação GET para o endpoint [https://todolist-app-java.onrender.com/]. 
+
 
