@@ -10,6 +10,8 @@ RUN apt-get install maven -y
 # instala artefatos empacotado no repositório local do Maven
 RUN mvn clean install 
 
+FROM openjdk:17-jdk-slim
+
 EXPOSE 8080
 
 COPY --from=build /target/todolist-1.0.0.jar app.jar 
